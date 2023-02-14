@@ -1,1 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;700&display=swap');
 
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    background-color: #b4463c3b; 
+}
+
+.name {
+    color: #8d1409bd;
+    font-family: 'Vollkorn', serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.photodog {
+    padding: 25px 20px;
+    border: 4px double #9b231b8a;
+    object-fit: contain;
+}
+
+.first, .second, .third, .fourth, .fifth {
+    border-left: 4px double #9b231b8a;
+    padding-left: 5px;
+    font-family: 'Vollkorn', serif;
+}
+h2 {
+    color: #8d1409bd;
+}
+article {
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+.afterhead {
+    border: 0.5px solid #8d1409bd;
+    border-bottom-width: 0;
+}
+.list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+.menu {
+    margin: 5px 0px;
+}
+.nav {
+    color: #690e05;
+    text-decoration: none;
+    margin: 5px 20px;
+}
+.nav:hover {
+   color: #ff382ad5;
+}
+a:visited {
+    color: #690e05;
+}
+.beforefoot {
+    border: 0.5px solid #8d1409bd;
+    border-bottom-width: 0;
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.foot {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+    padding: 0px;
+    gap: 20px;
+    
+}
+
+.skill {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact {
+    padding-right: 40px;
+    font-family: 'Vollkorn', serif;
+}
+ .social {
+    display: flex;
+    align-items: flex-end;
+} 
+.cont {
+    color: #690e05;
+    text-decoration: none;
+    margin: 0px 10px 0px 20px;
+}
+.cont:hover {
+    color: #ff382ad5;
+ }
+
+ .article_section {
+    display: flex;
+    margin-top: 50px;
+ }
+
+ .section_aside {
+    margin-left: 50px;
+    min-width: 380px;
+    max-width: 600px;
+ }
+
+ .main_section {
+    min-width: 460px;
+    max-width: 690px;
+ }
+
+.phone {
+   display: flex;
+   align-items: center;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
